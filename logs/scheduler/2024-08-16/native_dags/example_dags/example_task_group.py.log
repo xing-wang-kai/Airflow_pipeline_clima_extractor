@@ -1951,3 +1951,346 @@
 [2024-08-16 12:11:13,018] {logging_mixin.py:115} INFO - [2024-08-16 12:11:13,018] {dag.py:2379} INFO - Sync 1 DAGs
 [2024-08-16 12:11:13,034] {logging_mixin.py:115} INFO - [2024-08-16 12:11:13,034] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:11:13.034098+00:00, run_after=2024-08-16T15:11:13.034098+00:00
 [2024-08-16 12:11:13,047] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.055 seconds
+[2024-08-16 12:11:48,571] {processor.py:153} INFO - Started process (PID=93282) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:11:48,572] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:11:48,573] {logging_mixin.py:115} INFO - [2024-08-16 12:11:48,573] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:11:48,580] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:11:48,598] {logging_mixin.py:115} INFO - [2024-08-16 12:11:48,598] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:11:48,614] {logging_mixin.py:115} INFO - [2024-08-16 12:11:48,614] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:11:48.614379+00:00, run_after=2024-08-16T15:11:48.614379+00:00
+[2024-08-16 12:11:48,625] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.057 seconds
+[2024-08-16 12:12:23,731] {processor.py:153} INFO - Started process (PID=93490) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:12:23,732] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:12:23,732] {logging_mixin.py:115} INFO - [2024-08-16 12:12:23,732] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:12:23,739] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:12:23,756] {logging_mixin.py:115} INFO - [2024-08-16 12:12:23,756] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:12:23,770] {logging_mixin.py:115} INFO - [2024-08-16 12:12:23,770] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:12:23.770197+00:00, run_after=2024-08-16T15:12:23.770197+00:00
+[2024-08-16 12:12:23,780] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2024-08-16 12:12:56,511] {processor.py:153} INFO - Started process (PID=93751) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:12:56,511] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:12:56,512] {logging_mixin.py:115} INFO - [2024-08-16 12:12:56,512] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:12:56,519] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:12:56,535] {logging_mixin.py:115} INFO - [2024-08-16 12:12:56,535] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:12:56,551] {logging_mixin.py:115} INFO - [2024-08-16 12:12:56,551] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:12:56.550963+00:00, run_after=2024-08-16T15:12:56.550963+00:00
+[2024-08-16 12:12:56,561] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2024-08-16 12:13:29,173] {processor.py:153} INFO - Started process (PID=94051) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:13:29,175] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:13:29,176] {logging_mixin.py:115} INFO - [2024-08-16 12:13:29,175] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:13:29,186] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:13:29,207] {logging_mixin.py:115} INFO - [2024-08-16 12:13:29,207] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:13:29,227] {logging_mixin.py:115} INFO - [2024-08-16 12:13:29,227] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:13:29.227527+00:00, run_after=2024-08-16T15:13:29.227527+00:00
+[2024-08-16 12:13:29,249] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.079 seconds
+[2024-08-16 12:14:03,956] {processor.py:153} INFO - Started process (PID=94255) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:14:03,957] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:14:03,958] {logging_mixin.py:115} INFO - [2024-08-16 12:14:03,958] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:14:03,964] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:14:03,977] {logging_mixin.py:115} INFO - [2024-08-16 12:14:03,977] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:14:03,991] {logging_mixin.py:115} INFO - [2024-08-16 12:14:03,991] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:14:03.991463+00:00, run_after=2024-08-16T15:14:03.991463+00:00
+[2024-08-16 12:14:04,001] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-08-16 12:14:37,728] {processor.py:153} INFO - Started process (PID=94461) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:14:37,729] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:14:37,730] {logging_mixin.py:115} INFO - [2024-08-16 12:14:37,730] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:14:37,737] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:14:37,753] {logging_mixin.py:115} INFO - [2024-08-16 12:14:37,753] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:14:37,769] {logging_mixin.py:115} INFO - [2024-08-16 12:14:37,769] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:14:37.769331+00:00, run_after=2024-08-16T15:14:37.769331+00:00
+[2024-08-16 12:14:37,781] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.057 seconds
+[2024-08-16 12:15:13,027] {processor.py:153} INFO - Started process (PID=94710) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:15:13,028] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:15:13,028] {logging_mixin.py:115} INFO - [2024-08-16 12:15:13,028] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:15:13,035] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:15:13,052] {logging_mixin.py:115} INFO - [2024-08-16 12:15:13,052] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:15:13,069] {logging_mixin.py:115} INFO - [2024-08-16 12:15:13,069] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:15:13.069648+00:00, run_after=2024-08-16T15:15:13.069648+00:00
+[2024-08-16 12:15:13,081] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.057 seconds
+[2024-08-16 12:15:47,057] {processor.py:153} INFO - Started process (PID=95033) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:15:47,058] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:15:47,059] {logging_mixin.py:115} INFO - [2024-08-16 12:15:47,059] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:15:47,066] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:15:47,085] {logging_mixin.py:115} INFO - [2024-08-16 12:15:47,085] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:15:47,102] {logging_mixin.py:115} INFO - [2024-08-16 12:15:47,102] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:15:47.101934+00:00, run_after=2024-08-16T15:15:47.101934+00:00
+[2024-08-16 12:15:47,113] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2024-08-16 12:16:22,212] {processor.py:153} INFO - Started process (PID=95360) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:16:22,213] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:16:22,213] {logging_mixin.py:115} INFO - [2024-08-16 12:16:22,213] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:16:22,220] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:16:22,238] {logging_mixin.py:115} INFO - [2024-08-16 12:16:22,238] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:16:22,257] {logging_mixin.py:115} INFO - [2024-08-16 12:16:22,257] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:16:22.257000+00:00, run_after=2024-08-16T15:16:22.257000+00:00
+[2024-08-16 12:16:22,271] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.062 seconds
+[2024-08-16 12:16:57,836] {processor.py:153} INFO - Started process (PID=95679) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:16:57,837] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:16:57,837] {logging_mixin.py:115} INFO - [2024-08-16 12:16:57,837] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:16:57,844] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:16:57,862] {logging_mixin.py:115} INFO - [2024-08-16 12:16:57,862] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:16:57,878] {logging_mixin.py:115} INFO - [2024-08-16 12:16:57,877] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:16:57.877756+00:00, run_after=2024-08-16T15:16:57.877756+00:00
+[2024-08-16 12:16:57,890] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.056 seconds
+[2024-08-16 12:17:30,351] {processor.py:153} INFO - Started process (PID=95912) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:17:30,352] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:17:30,353] {logging_mixin.py:115} INFO - [2024-08-16 12:17:30,352] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:17:30,359] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:17:30,377] {logging_mixin.py:115} INFO - [2024-08-16 12:17:30,377] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:17:30,391] {logging_mixin.py:115} INFO - [2024-08-16 12:17:30,391] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:17:30.391135+00:00, run_after=2024-08-16T15:17:30.391135+00:00
+[2024-08-16 12:17:30,402] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.054 seconds
+[2024-08-16 12:18:04,032] {processor.py:153} INFO - Started process (PID=96182) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:18:04,033] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:18:04,033] {logging_mixin.py:115} INFO - [2024-08-16 12:18:04,033] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:18:04,041] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:18:04,058] {logging_mixin.py:115} INFO - [2024-08-16 12:18:04,058] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:18:04,074] {logging_mixin.py:115} INFO - [2024-08-16 12:18:04,073] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:18:04.073725+00:00, run_after=2024-08-16T15:18:04.073725+00:00
+[2024-08-16 12:18:04,084] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.054 seconds
+[2024-08-16 12:18:35,773] {processor.py:153} INFO - Started process (PID=96502) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:18:35,773] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:18:35,774] {logging_mixin.py:115} INFO - [2024-08-16 12:18:35,774] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:18:35,780] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:18:35,797] {logging_mixin.py:115} INFO - [2024-08-16 12:18:35,797] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:18:35,814] {logging_mixin.py:115} INFO - [2024-08-16 12:18:35,814] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:18:35.813768+00:00, run_after=2024-08-16T15:18:35.813768+00:00
+[2024-08-16 12:18:35,826] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.056 seconds
+[2024-08-16 12:19:06,901] {processor.py:153} INFO - Started process (PID=96680) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:19:06,903] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:19:06,903] {logging_mixin.py:115} INFO - [2024-08-16 12:19:06,903] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:19:06,911] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:19:06,933] {logging_mixin.py:115} INFO - [2024-08-16 12:19:06,933] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:19:06,953] {logging_mixin.py:115} INFO - [2024-08-16 12:19:06,953] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:19:06.953195+00:00, run_after=2024-08-16T15:19:06.953195+00:00
+[2024-08-16 12:19:06,964] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.067 seconds
+[2024-08-16 12:19:38,861] {processor.py:153} INFO - Started process (PID=96874) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:19:38,862] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:19:38,863] {logging_mixin.py:115} INFO - [2024-08-16 12:19:38,862] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:19:38,868] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:19:38,884] {logging_mixin.py:115} INFO - [2024-08-16 12:19:38,884] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:19:38,897] {logging_mixin.py:115} INFO - [2024-08-16 12:19:38,897] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:19:38.897084+00:00, run_after=2024-08-16T15:19:38.897084+00:00
+[2024-08-16 12:19:38,907] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2024-08-16 12:20:12,809] {processor.py:153} INFO - Started process (PID=97074) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:20:12,810] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:20:12,810] {logging_mixin.py:115} INFO - [2024-08-16 12:20:12,810] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:20:12,816] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:20:12,831] {logging_mixin.py:115} INFO - [2024-08-16 12:20:12,831] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:20:12,846] {logging_mixin.py:115} INFO - [2024-08-16 12:20:12,846] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:20:12.845723+00:00, run_after=2024-08-16T15:20:12.845723+00:00
+[2024-08-16 12:20:12,856] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2024-08-16 12:20:46,754] {processor.py:153} INFO - Started process (PID=97276) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:20:46,755] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:20:46,755] {logging_mixin.py:115} INFO - [2024-08-16 12:20:46,755] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:20:46,763] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:20:46,779] {logging_mixin.py:115} INFO - [2024-08-16 12:20:46,779] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:20:46,795] {logging_mixin.py:115} INFO - [2024-08-16 12:20:46,795] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:20:46.795532+00:00, run_after=2024-08-16T15:20:46.795532+00:00
+[2024-08-16 12:20:46,807] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.055 seconds
+[2024-08-16 12:21:18,721] {processor.py:153} INFO - Started process (PID=97499) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:21:18,722] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:21:18,723] {logging_mixin.py:115} INFO - [2024-08-16 12:21:18,723] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:21:18,729] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:21:18,745] {logging_mixin.py:115} INFO - [2024-08-16 12:21:18,745] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:21:18,761] {logging_mixin.py:115} INFO - [2024-08-16 12:21:18,761] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:21:18.760929+00:00, run_after=2024-08-16T15:21:18.760929+00:00
+[2024-08-16 12:21:18,771] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2024-08-16 12:21:52,430] {processor.py:153} INFO - Started process (PID=97766) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:21:52,431] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:21:52,431] {logging_mixin.py:115} INFO - [2024-08-16 12:21:52,431] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:21:52,440] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:21:52,455] {logging_mixin.py:115} INFO - [2024-08-16 12:21:52,455] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:21:52,469] {logging_mixin.py:115} INFO - [2024-08-16 12:21:52,469] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:21:52.469156+00:00, run_after=2024-08-16T15:21:52.469156+00:00
+[2024-08-16 12:21:52,479] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2024-08-16 12:22:23,214] {processor.py:153} INFO - Started process (PID=97983) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:22:23,215] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:22:23,215] {logging_mixin.py:115} INFO - [2024-08-16 12:22:23,215] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:22:23,223] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:22:23,238] {logging_mixin.py:115} INFO - [2024-08-16 12:22:23,238] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:22:23,252] {logging_mixin.py:115} INFO - [2024-08-16 12:22:23,252] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:22:23.252545+00:00, run_after=2024-08-16T15:22:23.252545+00:00
+[2024-08-16 12:22:23,262] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2024-08-16 12:22:54,246] {processor.py:153} INFO - Started process (PID=98167) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:22:54,247] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:22:54,247] {logging_mixin.py:115} INFO - [2024-08-16 12:22:54,247] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:22:54,257] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:22:54,272] {logging_mixin.py:115} INFO - [2024-08-16 12:22:54,272] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:22:54,287] {logging_mixin.py:115} INFO - [2024-08-16 12:22:54,287] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:22:54.287271+00:00, run_after=2024-08-16T15:22:54.287271+00:00
+[2024-08-16 12:22:54,299] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.056 seconds
+[2024-08-16 12:23:29,264] {processor.py:153} INFO - Started process (PID=98364) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:23:29,265] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:23:29,266] {logging_mixin.py:115} INFO - [2024-08-16 12:23:29,265] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:23:29,275] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:23:29,289] {logging_mixin.py:115} INFO - [2024-08-16 12:23:29,289] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:23:29,314] {logging_mixin.py:115} INFO - [2024-08-16 12:23:29,314] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:23:29.313720+00:00, run_after=2024-08-16T15:23:29.313720+00:00
+[2024-08-16 12:23:29,329] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.067 seconds
+[2024-08-16 12:24:02,385] {processor.py:153} INFO - Started process (PID=98649) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:24:02,385] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:24:02,386] {logging_mixin.py:115} INFO - [2024-08-16 12:24:02,386] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:24:02,396] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:24:02,413] {logging_mixin.py:115} INFO - [2024-08-16 12:24:02,413] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:24:02,428] {logging_mixin.py:115} INFO - [2024-08-16 12:24:02,428] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:24:02.428116+00:00, run_after=2024-08-16T15:24:02.428116+00:00
+[2024-08-16 12:24:02,438] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.056 seconds
+[2024-08-16 12:24:36,014] {processor.py:153} INFO - Started process (PID=98980) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:24:36,015] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:24:36,015] {logging_mixin.py:115} INFO - [2024-08-16 12:24:36,015] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:24:36,025] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:24:36,039] {logging_mixin.py:115} INFO - [2024-08-16 12:24:36,038] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:24:36,058] {logging_mixin.py:115} INFO - [2024-08-16 12:24:36,058] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:24:36.057783+00:00, run_after=2024-08-16T15:24:36.057783+00:00
+[2024-08-16 12:24:36,071] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2024-08-16 12:25:08,289] {processor.py:153} INFO - Started process (PID=99191) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:25:08,290] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:25:08,291] {logging_mixin.py:115} INFO - [2024-08-16 12:25:08,291] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:25:08,302] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:25:08,317] {logging_mixin.py:115} INFO - [2024-08-16 12:25:08,317] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:25:08,332] {logging_mixin.py:115} INFO - [2024-08-16 12:25:08,332] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:25:08.332212+00:00, run_after=2024-08-16T15:25:08.332212+00:00
+[2024-08-16 12:25:08,342] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.056 seconds
+[2024-08-16 12:25:44,272] {processor.py:153} INFO - Started process (PID=99403) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:25:44,273] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:25:44,273] {logging_mixin.py:115} INFO - [2024-08-16 12:25:44,273] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:25:44,285] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:25:44,303] {logging_mixin.py:115} INFO - [2024-08-16 12:25:44,303] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:25:44,322] {logging_mixin.py:115} INFO - [2024-08-16 12:25:44,322] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:25:44.322576+00:00, run_after=2024-08-16T15:25:44.322576+00:00
+[2024-08-16 12:25:44,337] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2024-08-16 12:26:17,302] {processor.py:153} INFO - Started process (PID=99598) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:26:17,302] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:26:17,303] {logging_mixin.py:115} INFO - [2024-08-16 12:26:17,303] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:26:17,311] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:26:17,325] {logging_mixin.py:115} INFO - [2024-08-16 12:26:17,325] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:26:17,338] {logging_mixin.py:115} INFO - [2024-08-16 12:26:17,338] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:26:17.338514+00:00, run_after=2024-08-16T15:26:17.338514+00:00
+[2024-08-16 12:26:17,348] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2024-08-16 12:26:47,585] {processor.py:153} INFO - Started process (PID=99836) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:26:47,586] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:26:47,587] {logging_mixin.py:115} INFO - [2024-08-16 12:26:47,586] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:26:47,592] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:26:47,610] {logging_mixin.py:115} INFO - [2024-08-16 12:26:47,609] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:26:47,624] {logging_mixin.py:115} INFO - [2024-08-16 12:26:47,624] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:26:47.624001+00:00, run_after=2024-08-16T15:26:47.624001+00:00
+[2024-08-16 12:26:47,635] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2024-08-16 12:27:19,410] {processor.py:153} INFO - Started process (PID=100027) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:27:19,410] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:27:19,411] {logging_mixin.py:115} INFO - [2024-08-16 12:27:19,411] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:27:19,419] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:27:19,437] {logging_mixin.py:115} INFO - [2024-08-16 12:27:19,437] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:27:19,454] {logging_mixin.py:115} INFO - [2024-08-16 12:27:19,454] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:27:19.454355+00:00, run_after=2024-08-16T15:27:19.454355+00:00
+[2024-08-16 12:27:19,467] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.060 seconds
+[2024-08-16 12:27:52,520] {processor.py:153} INFO - Started process (PID=100220) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:27:52,521] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:27:52,521] {logging_mixin.py:115} INFO - [2024-08-16 12:27:52,521] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:27:52,527] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:27:52,543] {logging_mixin.py:115} INFO - [2024-08-16 12:27:52,543] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:27:52,558] {logging_mixin.py:115} INFO - [2024-08-16 12:27:52,558] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:27:52.557808+00:00, run_after=2024-08-16T15:27:52.557808+00:00
+[2024-08-16 12:27:52,569] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2024-08-16 12:28:25,606] {processor.py:153} INFO - Started process (PID=100507) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:28:25,606] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:28:25,607] {logging_mixin.py:115} INFO - [2024-08-16 12:28:25,607] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:28:25,613] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:28:25,628] {logging_mixin.py:115} INFO - [2024-08-16 12:28:25,628] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:28:25,643] {logging_mixin.py:115} INFO - [2024-08-16 12:28:25,643] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:28:25.643022+00:00, run_after=2024-08-16T15:28:25.643022+00:00
+[2024-08-16 12:28:25,655] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2024-08-16 12:29:01,144] {processor.py:153} INFO - Started process (PID=100727) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:29:01,146] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:29:01,146] {logging_mixin.py:115} INFO - [2024-08-16 12:29:01,146] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:29:01,154] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:29:01,170] {logging_mixin.py:115} INFO - [2024-08-16 12:29:01,170] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:29:01,186] {logging_mixin.py:115} INFO - [2024-08-16 12:29:01,186] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:29:01.186577+00:00, run_after=2024-08-16T15:29:01.186577+00:00
+[2024-08-16 12:29:01,200] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2024-08-16 12:29:38,769] {processor.py:153} INFO - Started process (PID=100950) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:29:38,770] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:29:38,770] {logging_mixin.py:115} INFO - [2024-08-16 12:29:38,770] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:29:38,777] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:29:38,794] {logging_mixin.py:115} INFO - [2024-08-16 12:29:38,794] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:29:38,812] {logging_mixin.py:115} INFO - [2024-08-16 12:29:38,812] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:29:38.811751+00:00, run_after=2024-08-16T15:29:38.811751+00:00
+[2024-08-16 12:29:38,826] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.061 seconds
+[2024-08-16 12:30:10,910] {processor.py:153} INFO - Started process (PID=101223) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:30:10,911] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:30:10,912] {logging_mixin.py:115} INFO - [2024-08-16 12:30:10,912] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:30:10,918] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:30:10,933] {logging_mixin.py:115} INFO - [2024-08-16 12:30:10,933] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:30:10,948] {logging_mixin.py:115} INFO - [2024-08-16 12:30:10,948] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:30:10.947985+00:00, run_after=2024-08-16T15:30:10.947985+00:00
+[2024-08-16 12:30:10,960] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2024-08-16 12:30:43,866] {processor.py:153} INFO - Started process (PID=101443) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:30:43,867] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:30:43,868] {logging_mixin.py:115} INFO - [2024-08-16 12:30:43,867] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:30:43,874] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:30:43,890] {logging_mixin.py:115} INFO - [2024-08-16 12:30:43,890] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:30:43,905] {logging_mixin.py:115} INFO - [2024-08-16 12:30:43,905] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:30:43.905621+00:00, run_after=2024-08-16T15:30:43.905621+00:00
+[2024-08-16 12:30:43,916] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2024-08-16 12:31:18,977] {processor.py:153} INFO - Started process (PID=101649) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:31:18,979] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:31:18,980] {logging_mixin.py:115} INFO - [2024-08-16 12:31:18,980] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:31:18,991] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:31:19,008] {logging_mixin.py:115} INFO - [2024-08-16 12:31:19,008] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:31:19,027] {logging_mixin.py:115} INFO - [2024-08-16 12:31:19,027] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:31:19.027132+00:00, run_after=2024-08-16T15:31:19.027132+00:00
+[2024-08-16 12:31:19,041] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.067 seconds
+[2024-08-16 12:31:51,535] {processor.py:153} INFO - Started process (PID=101889) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:31:51,537] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:31:51,537] {logging_mixin.py:115} INFO - [2024-08-16 12:31:51,537] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:31:51,545] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:31:51,562] {logging_mixin.py:115} INFO - [2024-08-16 12:31:51,562] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:31:51,579] {logging_mixin.py:115} INFO - [2024-08-16 12:31:51,579] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:31:51.579448+00:00, run_after=2024-08-16T15:31:51.579448+00:00
+[2024-08-16 12:31:51,591] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.058 seconds
+[2024-08-16 12:32:25,423] {processor.py:153} INFO - Started process (PID=102097) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:32:25,424] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:32:25,424] {logging_mixin.py:115} INFO - [2024-08-16 12:32:25,424] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:32:25,430] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:32:25,444] {logging_mixin.py:115} INFO - [2024-08-16 12:32:25,444] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:32:25,458] {logging_mixin.py:115} INFO - [2024-08-16 12:32:25,458] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:32:25.458444+00:00, run_after=2024-08-16T15:32:25.458444+00:00
+[2024-08-16 12:32:25,469] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2024-08-16 12:33:00,151] {processor.py:153} INFO - Started process (PID=102298) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:33:00,152] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:33:00,153] {logging_mixin.py:115} INFO - [2024-08-16 12:33:00,153] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:33:00,160] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:33:00,180] {logging_mixin.py:115} INFO - [2024-08-16 12:33:00,180] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:33:00,197] {logging_mixin.py:115} INFO - [2024-08-16 12:33:00,197] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:33:00.197386+00:00, run_after=2024-08-16T15:33:00.197386+00:00
+[2024-08-16 12:33:00,209] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.061 seconds
+[2024-08-16 12:33:34,083] {processor.py:153} INFO - Started process (PID=102610) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:33:34,084] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:33:34,084] {logging_mixin.py:115} INFO - [2024-08-16 12:33:34,084] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:33:34,091] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:33:34,105] {logging_mixin.py:115} INFO - [2024-08-16 12:33:34,105] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:33:34,119] {logging_mixin.py:115} INFO - [2024-08-16 12:33:34,119] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:33:34.119068+00:00, run_after=2024-08-16T15:33:34.119068+00:00
+[2024-08-16 12:33:34,130] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2024-08-16 12:34:08,028] {processor.py:153} INFO - Started process (PID=102909) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:34:08,029] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:34:08,029] {logging_mixin.py:115} INFO - [2024-08-16 12:34:08,029] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:34:08,037] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:34:08,061] {logging_mixin.py:115} INFO - [2024-08-16 12:34:08,061] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:34:08,079] {logging_mixin.py:115} INFO - [2024-08-16 12:34:08,079] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:34:08.078833+00:00, run_after=2024-08-16T15:34:08.078833+00:00
+[2024-08-16 12:34:08,090] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.065 seconds
+[2024-08-16 12:34:44,000] {processor.py:153} INFO - Started process (PID=103118) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:34:44,001] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:34:44,001] {logging_mixin.py:115} INFO - [2024-08-16 12:34:44,001] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:34:44,008] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:34:44,027] {logging_mixin.py:115} INFO - [2024-08-16 12:34:44,027] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:34:44,044] {logging_mixin.py:115} INFO - [2024-08-16 12:34:44,044] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:34:44.044222+00:00, run_after=2024-08-16T15:34:44.044222+00:00
+[2024-08-16 12:34:44,055] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2024-08-16 12:35:19,930] {processor.py:153} INFO - Started process (PID=103329) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:35:19,931] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:35:19,932] {logging_mixin.py:115} INFO - [2024-08-16 12:35:19,931] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:35:19,938] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:35:19,955] {logging_mixin.py:115} INFO - [2024-08-16 12:35:19,954] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:35:19,969] {logging_mixin.py:115} INFO - [2024-08-16 12:35:19,969] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:35:19.969087+00:00, run_after=2024-08-16T15:35:19.969087+00:00
+[2024-08-16 12:35:19,981] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2024-08-16 12:35:50,209] {processor.py:153} INFO - Started process (PID=103509) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:35:50,211] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:35:50,212] {logging_mixin.py:115} INFO - [2024-08-16 12:35:50,212] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:35:50,221] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:35:50,237] {logging_mixin.py:115} INFO - [2024-08-16 12:35:50,237] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:35:50,255] {logging_mixin.py:115} INFO - [2024-08-16 12:35:50,255] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:35:50.254970+00:00, run_after=2024-08-16T15:35:50.254970+00:00
+[2024-08-16 12:35:50,268] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.062 seconds
+[2024-08-16 12:36:21,912] {processor.py:153} INFO - Started process (PID=103735) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:36:21,913] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:36:21,914] {logging_mixin.py:115} INFO - [2024-08-16 12:36:21,914] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:36:21,922] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:36:21,939] {logging_mixin.py:115} INFO - [2024-08-16 12:36:21,939] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:36:21,954] {logging_mixin.py:115} INFO - [2024-08-16 12:36:21,954] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:36:21.954390+00:00, run_after=2024-08-16T15:36:21.954390+00:00
+[2024-08-16 12:36:21,966] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.058 seconds
+[2024-08-16 12:36:55,101] {processor.py:153} INFO - Started process (PID=104160) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:36:55,102] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:36:55,102] {logging_mixin.py:115} INFO - [2024-08-16 12:36:55,102] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:36:55,110] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:36:55,125] {logging_mixin.py:115} INFO - [2024-08-16 12:36:55,125] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:36:55,142] {logging_mixin.py:115} INFO - [2024-08-16 12:36:55,142] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:36:55.141995+00:00, run_after=2024-08-16T15:36:55.141995+00:00
+[2024-08-16 12:36:55,152] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2024-08-16 12:37:28,794] {processor.py:153} INFO - Started process (PID=104442) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:37:28,795] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:37:28,795] {logging_mixin.py:115} INFO - [2024-08-16 12:37:28,795] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:37:28,801] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:37:28,814] {logging_mixin.py:115} INFO - [2024-08-16 12:37:28,814] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:37:28,829] {logging_mixin.py:115} INFO - [2024-08-16 12:37:28,829] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:37:28.829250+00:00, run_after=2024-08-16T15:37:28.829250+00:00
+[2024-08-16 12:37:28,838] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2024-08-16 12:38:01,057] {processor.py:153} INFO - Started process (PID=104644) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:38:01,058] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:38:01,060] {logging_mixin.py:115} INFO - [2024-08-16 12:38:01,060] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:38:01,066] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:38:01,081] {logging_mixin.py:115} INFO - [2024-08-16 12:38:01,081] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:38:01,096] {logging_mixin.py:115} INFO - [2024-08-16 12:38:01,095] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:38:01.095725+00:00, run_after=2024-08-16T15:38:01.095725+00:00
+[2024-08-16 12:38:01,108] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.054 seconds
+[2024-08-16 12:38:35,078] {processor.py:153} INFO - Started process (PID=104986) to work on /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:38:35,078] {processor.py:641} INFO - Processing file /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-08-16 12:38:35,079] {logging_mixin.py:115} INFO - [2024-08-16 12:38:35,079] {dagbag.py:507} INFO - Filling up the DagBag from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:38:35,085] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2024-08-16 12:38:35,100] {logging_mixin.py:115} INFO - [2024-08-16 12:38:35,100] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-08-16 12:38:35,115] {logging_mixin.py:115} INFO - [2024-08-16 12:38:35,114] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2024-08-15T15:38:35.114698+00:00, run_after=2024-08-16T15:38:35.114698+00:00
+[2024-08-16 12:38:35,126] {processor.py:161} INFO - Processing /home/kai/Documents/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
