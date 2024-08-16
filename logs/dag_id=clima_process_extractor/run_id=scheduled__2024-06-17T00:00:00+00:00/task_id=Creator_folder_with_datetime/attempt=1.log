@@ -1,0 +1,108 @@
+[2024-08-16 10:57:44,110] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [queued]>
+[2024-08-16 10:57:44,115] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [queued]>
+[2024-08-16 10:57:44,115] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-16 10:57:44,116] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-08-16 10:57:44,116] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-16 10:57:44,128] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): Creator_folder_with_datetime> on 2024-06-17 00:00:00+00:00
+[2024-08-16 10:57:44,130] {standard_task_runner.py:52} INFO - Started process 58677 to run task
+[2024-08-16 10:57:44,133] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'clima_process_extractor', 'Creator_folder_with_datetime', 'scheduled__2024-06-17T00:00:00+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmp8mbv135_', '--error-file', '/tmp/tmp6ln_devr']
+[2024-08-16 10:57:44,134] {standard_task_runner.py:80} INFO - Job 189: Subtask Creator_folder_with_datetime
+[2024-08-16 10:57:44,184] {task_command.py:370} INFO - Running <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [running]> on host kaiwangairflow
+[2024-08-16 10:57:44,230] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=clima_process_extractor
+AIRFLOW_CTX_TASK_ID=Creator_folder_with_datetime
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-17T00:00:00+00:00
+[2024-08-16 10:57:44,232] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-08-16 10:57:44,232] {subprocess.py:74} INFO - Running command: ['bash', '-c', "mkdir -p '/home/kai/Documents/airflowalura/semana=2024-06-24/'"]
+[2024-08-16 10:57:44,238] {subprocess.py:85} INFO - Output:
+[2024-08-16 10:57:44,241] {subprocess.py:96} INFO - Command exited with return code 0
+[2024-08-16 10:57:44,264] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=clima_process_extractor, task_id=Creator_folder_with_datetime, execution_date=20240617T000000, start_date=20240816T135744, end_date=20240816T135744
+[2024-08-16 10:57:44,307] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-08-16 10:57:44,358] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-16 11:13:51,764] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [queued]>
+[2024-08-16 11:13:51,770] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [queued]>
+[2024-08-16 11:13:51,770] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-16 11:13:51,770] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-08-16 11:13:51,770] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-16 11:13:51,782] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): Creator_folder_with_datetime> on 2024-06-17 00:00:00+00:00
+[2024-08-16 11:13:51,785] {standard_task_runner.py:52} INFO - Started process 65901 to run task
+[2024-08-16 11:13:51,788] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'clima_process_extractor', 'Creator_folder_with_datetime', 'scheduled__2024-06-17T00:00:00+00:00', '--job-id', '211', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmpbi0abkin', '--error-file', '/tmp/tmp5_0fjid1']
+[2024-08-16 11:13:51,789] {standard_task_runner.py:80} INFO - Job 211: Subtask Creator_folder_with_datetime
+[2024-08-16 11:13:51,834] {task_command.py:370} INFO - Running <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [running]> on host kaiwangairflow
+[2024-08-16 11:13:51,880] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=clima_process_extractor
+AIRFLOW_CTX_TASK_ID=Creator_folder_with_datetime
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-17T00:00:00+00:00
+[2024-08-16 11:13:51,881] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-08-16 11:13:51,881] {subprocess.py:74} INFO - Running command: ['bash', '-c', "mkdir -p '/home/kai/Documents/airflowalura/semana=2024-06-24/'"]
+[2024-08-16 11:13:51,888] {subprocess.py:85} INFO - Output:
+[2024-08-16 11:13:51,891] {subprocess.py:96} INFO - Command exited with return code 0
+[2024-08-16 11:13:51,906] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=clima_process_extractor, task_id=Creator_folder_with_datetime, execution_date=20240617T000000, start_date=20240816T141351, end_date=20240816T141351
+[2024-08-16 11:13:51,922] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-08-16 11:13:51,947] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-16 11:18:50,710] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [queued]>
+[2024-08-16 11:18:50,716] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [queued]>
+[2024-08-16 11:18:50,717] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-16 11:18:50,717] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-08-16 11:18:50,717] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-16 11:18:50,728] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): Creator_folder_with_datetime> on 2024-06-17 00:00:00+00:00
+[2024-08-16 11:18:50,737] {standard_task_runner.py:52} INFO - Started process 68884 to run task
+[2024-08-16 11:18:50,740] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'clima_process_extractor', 'Creator_folder_with_datetime', 'scheduled__2024-06-17T00:00:00+00:00', '--job-id', '213', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmpkl8da980', '--error-file', '/tmp/tmpp4v_1wj8']
+[2024-08-16 11:18:50,740] {standard_task_runner.py:80} INFO - Job 213: Subtask Creator_folder_with_datetime
+[2024-08-16 11:18:50,782] {task_command.py:370} INFO - Running <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [running]> on host kaiwangairflow
+[2024-08-16 11:18:50,834] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=clima_process_extractor
+AIRFLOW_CTX_TASK_ID=Creator_folder_with_datetime
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-17T00:00:00+00:00
+[2024-08-16 11:18:50,836] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-08-16 11:18:50,836] {subprocess.py:74} INFO - Running command: ['bash', '-c', "mkdir -p '/home/kai/Documents/airflowalura/semana=2024-06-24/'"]
+[2024-08-16 11:18:50,842] {subprocess.py:85} INFO - Output:
+[2024-08-16 11:18:50,845] {subprocess.py:96} INFO - Command exited with return code 0
+[2024-08-16 11:18:50,860] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=clima_process_extractor, task_id=Creator_folder_with_datetime, execution_date=20240617T000000, start_date=20240816T141850, end_date=20240816T141850
+[2024-08-16 11:18:50,881] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-08-16 11:18:50,908] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-16 11:21:51,585] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [queued]>
+[2024-08-16 11:21:51,589] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [queued]>
+[2024-08-16 11:21:51,589] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-16 11:21:51,589] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-08-16 11:21:51,589] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-16 11:21:51,598] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): Creator_folder_with_datetime> on 2024-06-17 00:00:00+00:00
+[2024-08-16 11:21:51,612] {standard_task_runner.py:52} INFO - Started process 72615 to run task
+[2024-08-16 11:21:51,614] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'clima_process_extractor', 'Creator_folder_with_datetime', 'scheduled__2024-06-17T00:00:00+00:00', '--job-id', '215', '--raw', '--subdir', 'DAGS_FOLDER/my_first_dag.py', '--cfg-path', '/tmp/tmp2dfpd5dh', '--error-file', '/tmp/tmpfnqd4oe3']
+[2024-08-16 11:21:51,615] {standard_task_runner.py:80} INFO - Job 215: Subtask Creator_folder_with_datetime
+[2024-08-16 11:21:51,649] {task_command.py:370} INFO - Running <TaskInstance: clima_process_extractor.Creator_folder_with_datetime scheduled__2024-06-17T00:00:00+00:00 [running]> on host kaiwangairflow
+[2024-08-16 11:21:51,685] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=clima_process_extractor
+AIRFLOW_CTX_TASK_ID=Creator_folder_with_datetime
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-17T00:00:00+00:00
+[2024-08-16 11:21:51,686] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-08-16 11:21:51,686] {subprocess.py:74} INFO - Running command: ['bash', '-c', "mkdir -p '/home/kai/Documents/airflowalura/semana=2024-06-24/'"]
+[2024-08-16 11:21:51,691] {subprocess.py:85} INFO - Output:
+[2024-08-16 11:21:51,693] {subprocess.py:96} INFO - Command exited with return code 0
+[2024-08-16 11:21:51,707] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=clima_process_extractor, task_id=Creator_folder_with_datetime, execution_date=20240617T000000, start_date=20240816T142151, end_date=20240816T142151
+[2024-08-16 11:21:51,749] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-08-16 11:21:51,766] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
