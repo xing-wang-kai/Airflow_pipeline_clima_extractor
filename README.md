@@ -7,4 +7,5 @@ esse extrator recolhe dados semanais de clima da API e então injeta eles nas pa
 
  ## RESULTADOS  
  
- ![image](https://github.com/user-attachments/assets/bb2d11c5-eae5-4b13-841c-d360c543d8fb)
+ 
+![image](https://github.com/user-attachments/assets/44486248-b22c-4142-aa34-73f80da713e2)
